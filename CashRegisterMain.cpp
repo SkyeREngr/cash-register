@@ -68,8 +68,6 @@ void InventoryInit(){
         item.setItemPrice(myPrice);       //infile double from line i
         item.setItemStock(myStock);       //infile int from line i
         item.setItemName(myName);         //infile string from line i
-        
-        //item.printInfo();
 
         //add items into Inv vector
         Inv.push_back(item);
